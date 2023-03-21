@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-  url: env('STRAPI_URL'),
+  url: env('soprano-heroku.com'),
 });

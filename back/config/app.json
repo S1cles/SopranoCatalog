@@ -1,0 +1,8 @@
+{
+    "name": "myapp",
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      }
+    ]
+  }

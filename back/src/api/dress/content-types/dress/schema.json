@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "colors": {
+    "original_color": {
       "type": "string"
     },
     "article": {
@@ -37,6 +37,9 @@
     },
     "price": {
       "type": "integer"
+    },
+    "desc": {
+      "type": "text"
     }
   }
 }

@@ -80,7 +80,7 @@ const Product = () => {
                       width={"100%"}
                       height={"100%"}
                       objectFit={"cover"}
-                      src={`http://192.168.3.100:1337${data?.attributes.url}`}
+                      src={`${process.env.REACT_APP_UPLOAD_URL}${data?.attributes.url}`}
                     />
                   </Box>
                 </Box>
@@ -105,7 +105,7 @@ const Product = () => {
               width={"100%"}
               maxWidth={600}
               height={"100%"}
-              src={`http://192.168.3.100:1337${dressesData?.attributes?.img_dresses?.data[activeImg]?.attributes?.url}`}
+              src={`${process.env.REACT_APP_UPLOAD_URL}${dressesData?.attributes?.img_dresses?.data[activeImg]?.attributes?.url}`}
             />
           </Box>
         </Flex>

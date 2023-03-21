@@ -44,3 +44,13 @@ html{
   transform: scale(1.1); 
   cursor: pointer;
 }
+Td{
+text-align: center !important;
+margin: 5px !important;
+padding: 10px !important;
+}
+Th{
+  text-align: center !important;
+  margin: 5px !important;
+  padding: 10px !important;
+  }

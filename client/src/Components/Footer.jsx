@@ -1,22 +1,25 @@
 import React from "react";
 import { Box, Container, Img, Text } from "@chakra-ui/react";
 import Logo from "../img/logoPng.png";
+import SizeBar from './SizeBar';
 const Footer = () => {
   return (
     <Box textAlign={"center"}>
-      <Container maxWidth={"container.lg"} color="black">
+      <SizeBar />
+      <Container maxWidth={"80vw"} color="black">
         <Box
           display={{ base: "block", lg: "flex" }}
           mt={100}
           mb={20}
           justifyContent={"space-between"}
+          gap={10}
         >
           <hr style={{ border: "1px solid lightgray" }} />
           <Box flex={5}>
             <Img
               margin={"0 auto"}
               maxHeight={250}
-              maxWidth={400}
+              maxWidth={450}
               width={"100%"}
               height={"100%"}
               src={Logo}
@@ -48,6 +51,7 @@ const Footer = () => {
           </Box>
         </Box>
       </Container>
+      
     </Box>
   );
 };

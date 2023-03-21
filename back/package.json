@@ -9,9 +9,6 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "buildpacks": [
-    { "url": "heroku/nodejs" }
-  ],
   "dependencies": {
     "@strapi/plugin-i18n": "4.8.2",
     "@strapi/plugin-users-permissions": "4.8.2",
@@ -26,8 +23,8 @@
     "uuid": "06c8bac5-7fe1-483b-99df-d3c7f3fb73de"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0"
+    "node": "14.19.1",
+    "npm": "6.0.0"
   },
 
   "license": "MIT"
